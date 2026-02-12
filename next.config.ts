@@ -1,8 +1,9 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'export', // این خط باعث می‌شه پروژه به صورت فایل‌های HTML/CSS/JS خروجی داده بشه
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  output: 'export', 
   images: {
-    unoptimized: true, // برای خروجی استاتیک ضروریه
+    unoptimized: true, 
   },
 };
 
